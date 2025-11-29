@@ -1,0 +1,81 @@
+.hero {
+
+&__container {
+}
+&__wrapper {
+}
+&__title {
+}
+&__box {
+}
+&__text {
+}
+&__button {
+}
+&__img {
+}
+}
+
+@media screen and (min-width: 768px) {
+.hero {
+
+&__container {
+}
+&__wrapper {
+}
+&__title {
+}
+&__box {
+}
+&__text {
+}
+&__button {
+}
+&__img {
+}
+}
+}
+
+@media screen and (min-width: 1344px) {
+.hero {
+padding-top: 112px;
+padding-bottom: 112px;
+&__container {
+}
+&__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+&__title {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 56px;
+line-height: 120%;
+color: var(--color-scheme-1-text);
+}
+&__box {
+    width: 616px;
+}
+&__text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: var(--color-scheme-1-text);
+margin-bottom: 32px;
+}
+&__button {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #fff;
+background: #000;
+padding: 12px 24px 12px 24px;
+}
+&__img {
+}
+}
+}
