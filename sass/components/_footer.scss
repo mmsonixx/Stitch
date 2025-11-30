@@ -1,0 +1,125 @@
+.footer {
+  &__container {
+  }
+  &__box {
+  }
+  &__link__logo {
+  }
+  &__icon {
+  }
+  &__nav {
+  }
+  &__list {
+  }
+  &__item {
+  }
+  &__link {
+  }
+  &__wrapper {
+  }
+  &__iocns {
+  }
+  &__app {
+  }
+  &__info {
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    &__container {
+    }
+    &__box {
+    }
+    &__link__logo {
+    }
+    &__icon {
+    }
+    &__nav {
+    }
+    &__list {
+    }
+    &__item {
+    }
+    &__link {
+    }
+    &__wrapper {
+    }
+    &__iocns {
+    }
+    &__app {
+    }
+    &__info {
+    }
+  }
+}
+
+@media screen and (min-width: 1344px) {
+  .footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    &__box {
+        
+       
+    }
+    &__link__logo {
+        @include logo(
+            $size: 20px,
+        );
+          display: flex;
+        gap: 3px;
+        align-items: center;
+    }
+    &__logo__icon {
+        width: 23px;
+        height: 21px;
+    }
+    &__nav {
+    }
+    &__list {
+        display: flex;
+        gap: 32px;
+    }
+    &__item {
+    }
+    &__link {
+        @include text(
+            $weight: 400px,
+            $size: 16px
+        );
+    }
+    &__wrapper {
+    }
+    &__iocns {
+        display: flex;
+        gap: 12px;
+    }
+    &__icon {
+
+    }
+    &__app {
+        width: 24px;
+        height: 24px;
+    }
+    &__info {
+         @include text(
+            $weight: 400px,
+            $size: 14px
+        );
+        height: 53px;
+      
+        margin-top: 80px;
+border-top: 1px solid $text-color;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+
+    }
+  }
+}

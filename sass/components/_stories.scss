@@ -1,0 +1,78 @@
+.stories {
+  &__container {
+  }
+  &__title {
+  }
+  &__list {
+  }
+  &__item {
+  }
+  &__info {
+  }
+  &__name {
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .stories {
+    &__container {
+    }
+    &__title {
+    }
+    &__list {
+    }
+    &__item {
+    }
+    &__info {
+    }
+    &__name {
+    }
+  }
+}
+
+@media screen and (min-width: 1344px) {
+  .stories {
+    padding-bottom: 112px;
+    padding-top: 112px;
+    &__container {
+    }
+    &__title {
+      @include title(
+          $size: 48px,
+          $color: $text-color,
+          $height: 120%,
+          $weight: 700px
+        );
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    &__list {
+        display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    }
+    &__item {
+        border: 1px solid $text-color;
+padding: 32px;
+width: 640px;
+
+    }
+    &__info {
+      @include text(
+        $weight: 400px,
+        $size: 18px,
+        $height: 150%,
+        $color: $text-color
+      );
+      margin-bottom: 24px;
+    }
+    &__name {
+          @include text(
+        $weight: 600px,
+        $size: 16px,
+        $height: 150%,
+        $color: $text-color
+      );
+    }
+  }
+}
