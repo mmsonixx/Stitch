@@ -1,0 +1,105 @@
+.intention {
+
+    &__container {
+}
+&__box {
+}
+&__title {
+}
+&__info {
+}
+&__list {
+}
+&__item {
+}
+&__subtitle {
+}
+&__text {
+}
+&___img {
+}
+}
+
+@media screen and (min-width: 768px) {
+   
+    .intention {
+
+    &__container {
+}
+&__box {
+}
+&__title {
+}
+&__info {
+}
+&__list {
+}
+&__item {
+}
+&__subtitle {
+}
+&__text {
+}
+&___img {
+}
+}
+}
+
+@media screen and (min-width: 1344px) {
+    .intention {
+padding-bottom: 112px;
+padding-top: 112px;
+    &__container {
+        display: flex;
+        gap: 80px;
+}
+&__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+&__title {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+color: var(--color-scheme-1-text);
+margin-bottom: 24px;
+}
+&__info {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: var(--color-scheme-1-text);
+}
+&__list {
+    display: flex;
+    margin-top: 32px;
+    gap: 24px;
+}
+&__item {
+    width: 296px;
+}
+&__subtitle {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 20px;
+line-height: 140%;
+color: var(--color-scheme-1-text);
+margin-bottom: 16px;
+}
+&__text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: var(--color-scheme-1-text);
+}
+&___img {
+    width: 616px;
+height: 657px;
+}
+}
+}

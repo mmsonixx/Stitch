@@ -310,4 +310,158 @@ html {
     line-height: 150%;
     color: var(--color-scheme-1-text);
   }
+}
+@media screen and (min-width: 1344px) {
+  .creations {
+    padding-bottom: 112px;
+    padding-top: 112px;
+  }
+  .creations__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+  .creations__title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+  }
+  .creations__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+    width: 768px;
+  }
+  .creations__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .creations__img {
+    width: 634px;
+    height: 356px;
+  }
+}
+@media screen and (min-width: 1344px) {
+  .intention {
+    padding-bottom: 112px;
+    padding-top: 112px;
+  }
+  .intention__container {
+    display: flex;
+    gap: 80px;
+  }
+  .intention__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .intention__title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: var(--color-scheme-1-text);
+    margin-bottom: 24px;
+  }
+  .intention__info {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--color-scheme-1-text);
+  }
+  .intention__list {
+    display: flex;
+    margin-top: 32px;
+    gap: 24px;
+  }
+  .intention__item {
+    width: 296px;
+  }
+  .intention__subtitle {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--color-scheme-1-text);
+    margin-bottom: 16px;
+  }
+  .intention__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-scheme-1-text);
+  }
+  .intention___img {
+    width: 616px;
+    height: 657px;
+  }
+}
+@media screen and (min-width: 1344px) {
+  .materials {
+    padding-bottom: 112px;
+    padding-top: 112px;
+  }
+  .materials__title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+    margin-bottom: 40px;
+  }
+  .materials__list {
+    display: flex;
+    gap: 11.8px;
+  }
+  .materials__item {
+    height: 873px;
+    width: 252px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 12px;
+  }
+  .materials__item:nth-child(1) {
+    background: url("././img/materials/desktop/denim@desktop-1x.webp");
+  }
+  .materials__item:nth-child(2) {
+    background: url("././img/materials/desktop/ripstop@desktop-1x.webp");
+  }
+  .materials__item:nth-child(3) {
+    background: url("././img/materials/desktop/leather@desktop-1x.webp");
+  }
+  .materials__item:nth-child(4) {
+    background: url("././img/materials/desktop/fleece@desktop-1x.webp");
+  }
+  .materials__item:nth-child(5) {
+    background: url("././img/materials/desktop/canvas@desktop-1x.webp");
+  }
+  .materials__subtitle {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+  .materials__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+  }
 }/*# sourceMappingURL=style.css.map */
