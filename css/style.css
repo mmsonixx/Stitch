@@ -435,19 +435,19 @@ html {
     padding: 12px;
   }
   .materials__item:nth-child(1) {
-    background: url("././img/materials/desktop/denim@desktop-1x.webp");
+    background: url("../img/materials/desktop/denim@desktop-1x.webp");
   }
   .materials__item:nth-child(2) {
-    background: url("././img/materials/desktop/ripstop@desktop-1x.webp");
+    background: url("../img/materials/desktop/ripstop@desktop-1x.webp");
   }
   .materials__item:nth-child(3) {
-    background: url("././img/materials/desktop/leather@desktop-1x.webp");
+    background: url("../img/materials/desktop/leather@desktop-1x.webp");
   }
   .materials__item:nth-child(4) {
-    background: url("././img/materials/desktop/fleece@desktop-1x.webp");
+    background: url("../img/materials/desktop/fleece@desktop-1x.webp");
   }
   .materials__item:nth-child(5) {
-    background: url("././img/materials/desktop/canvas@desktop-1x.webp");
+    background: url("../img/materials/desktop/canvas@desktop-1x.webp");
   }
   .materials__subtitle {
     font-family: var(--font-family);
